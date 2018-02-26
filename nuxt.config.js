@@ -3,6 +3,9 @@ const pkg = require('./package')
 const nodeExternals = require('webpack-node-externals')
 
 module.exports = {
+  generate: {
+    dir: 'docs'
+  },
   mode: 'universal',
 
   /*
